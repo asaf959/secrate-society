@@ -1,0 +1,69 @@
+.review_container {
+  h1 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+  margin-top: 50px;
+
+    line-height: 105%;
+    letter-spacing: 0.02rem;
+    font-size: 43px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 36px;
+    display: inline-block;
+    
+  }
+  background: url('https://statics.myclickfunnels.com/image/1749361/file/2c6917f8a2744bf28c3dc76d19764aab.jpg') rgb(0, 0, 0);
+
+}
+.images {
+  display: flex;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.review_img {
+  border-radius: 21px;
+  box-shadow: 0px 0px 17px 5px rgba(0, 0, 0, 0.25);
+  /* max-width: 100%; */
+  vertical-align: bottom;
+  /* width: 100%; */
+  height: auto;
+  aspect-ratio: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 578px;
+  margin-bottom: 50px;
+}
+.column1 {
+  width: 33.33333333%;
+  margin: 12px;
+}
+.column2 {
+  width: 33.33333333%;
+  margin: 12px;
+}
+.column3 {
+  width: 33.33333333%;
+  margin: 12px;
+}
+.custom-button {
+  width: 45%;
+  font-family: "Open Sans", sans-serif;
+  border-style: none;
+  border-radius: 19px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.23);
+  background: linear-gradient(90deg, rgb(117, 43, 33) 5.00%, rgb(159, 64, 64) 99.00%);
+  border-color: #123acb;
+  border-width: 1px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 125%;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin: 15px 0 20px 0;
+
+}

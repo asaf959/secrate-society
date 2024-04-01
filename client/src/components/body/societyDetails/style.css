@@ -1,0 +1,239 @@
+@keyframes scrollleftrocking-up {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes scrollleftrocking-down {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.society-details-container {
+  display: flex;
+  background: url("https://statics.myclickfunnels.com/image/1749361/file/2c6917f8a2744bf28c3dc76d19764aab.jpg")
+    rgb(0, 0, 0);
+  flex-direction: column;
+  align-items: center;
+}
+.card {
+  width: 729px;
+  h1 {
+    font-family: "Taviraj", serif;
+    font-weight: 500;
+    text-align: center;
+    line-height: 100%;
+    letter-spacing: 0.02rem;
+    font-size: 38px;
+    margin: 0 12px;
+    color: rgb(255, 255, 255);
+  }
+}
+
+.custom-button {
+  position: relative;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  border-style: none;
+  border-radius: 19px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.23);
+  background: linear-gradient(90deg, rgb(117, 43, 33) 5%, rgb(159, 64, 64) 99%);
+  border-color: #123acb;
+  border-width: 1px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 125%;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  text-transform: capitalize;
+  font-weight: 700;
+  max-width: 906px;
+  animation: scrollleftrocking-up 2s infinite alternate ease-in-out,
+    scrollleftrocking-down 2s infinite alternate ease-in-out;
+}
+.details-list {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  ul {
+    margin-left: -25px;
+  }
+
+  li {
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    text-align: left;
+  }
+}
+/* .joined_card {
+  margin-bottom: 10px;
+} */
+.top-container {
+  width: 582px;
+  border-radius: 18px;
+  padding-bottom: 12px;
+  margin-top: 40px;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  /* padding: 20px 15px 12px; */
+  background: linear-gradient(
+    90deg,
+    rgb(41, 41, 41) 4%,
+    rgb(31, 31, 31) 51%,
+    rgb(27, 27, 27) 97%
+  );
+  h1 {
+    font-family: "Taviraj", serif;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.02rem;
+    font-size: 41px;
+    color: rgb(255, 255, 255);
+  }
+  p {
+    font-family: "Taviraj", serif;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+  }
+}
+.inner-container {
+  padding: 20px 25px 12px;
+}
+.bottom-container {
+  width: 582px;
+  border-radius: 18px;
+  padding-bottom: 12px;
+  margin-top: 0px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  background: linear-gradient(
+    90deg,
+    rgb(60, 60, 60) 5%,
+    rgb(59, 59, 59) 51%,
+    rgb(65, 65, 65) 93%
+  );
+  img {
+    border-radius: 400px;
+    aspect-ratio: auto;
+    width: 143px;
+    box-shadow: 0px 0px 20px 3px rgb(28, 28, 28);
+    margin-top: 15px;
+  }
+  span {
+    display: block;
+    padding-top: 10px;
+    font-family: "Taviraj", serif;
+    font-weight: 500;
+    /* line-height: 100%; */
+    letter-spacing: 0.02rem;
+    font-size: 41px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  .name {
+    font-family: "Taviraj", serif;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+}
+.money-back-card {
+  margin-top: 50px;
+}
+.title {
+  margin-top: 15px;
+  font-family: "Taviraj", serif;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0.02rem;
+  font-size: 26.4px;
+  color: rgb(255, 255, 255);
+}
+.description {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0;
+  font-size: 15.84px;
+  color: rgb(255, 255, 255);
+  padding: 17px;
+}
+
+.faq {
+  width: 582px;
+  border-radius: 18px;
+  padding-bottom: 12px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  margin-bottom: 20px;
+
+  background: linear-gradient(
+    90deg,
+    rgb(41, 41, 41) 4%,
+    rgb(31, 31, 31) 51%,
+    rgb(27, 27, 27) 97%
+  );
+  p{
+    font-family: "Taviraj", serif;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin: 0 !important;
+    padding: 0 !important;
+
+  }
+}
+.heading {
+  font-family: "Taviraj", serif;
+  max-width: 345.9px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0.02rem;
+  font-size: 40.99px;
+  color: rgb(255, 255, 255);
+}
+.getting{
+  font-family: "Taviraj", serif;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0.02rem;
+  font-size: 40.99px;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  margin-top: 25px;
+}

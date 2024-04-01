@@ -1,0 +1,90 @@
+.container_package {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("https://statics.myclickfunnels.com/image/1839926/file/b182d08982dedb05e6665cfcec18349d.jpg")
+    rgb(0, 0, 0);
+}
+
+.content1 {
+  width: 564px;
+  padding: 0 15px;
+}
+
+.package_img {
+  border-radius: 12px;
+  max-width: 100%;
+  vertical-align: bottom;
+  width: 100%;
+  height: auto;
+  aspect-ratio: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: -25px;
+  margin-bottom: 45px;
+}
+
+.obsession {
+  font-family: "Taviraj", serif;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0.02rem;
+  font-size: 41px;
+  color: rgb(255, 255, 255);
+  margin: 45px 0 12px 0;
+}
+.unordered_list {
+  padding: 10px 0;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0;
+  margin-bottom: 25px;
+  li {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    text-align: left;
+  }
+}
+#tick_icon {
+  font-size: 24px;
+  margin-right: 8px;
+  line-height: inherit;
+  margin-left: 0px;
+  flex-shrink: 0;
+}
+.content2 {
+  width: 582px;
+  h1 {
+    font-family: "Taviraj", serif;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.02rem;
+    font-size: 37px;
+    color: rgb(255, 255, 255);
+  }
+  h2 {
+    font-family: "Taviraj", serif;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.02rem;
+    font-size: 26.4px;
+    color: rgb(255, 255, 255);
+    margin: 0 24px;
+    text-align: center;
+  }
+}
+.formula {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  margin: 4px 16px;
+}

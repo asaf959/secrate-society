@@ -1,0 +1,137 @@
+.container {
+  background-color: rgb(44, 41, 41);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center; /* Center align content horizontally */
+  padding-top: 25px;
+  padding-bottom: 38px;
+  background: url('https://statics.myclickfunnels.com/image/1839924/file/e6aab42024a3a149f7bc630b8ce2382b.jpg') rgb(0, 0, 0);
+
+}
+
+.content {
+  width: 50%; /* Adjust width as needed for responsiveness */
+  max-width: 812px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align content vertically */
+}
+
+.discover {
+  font-family: "Taviraj", serif;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0.02rem;
+  font-size: 48.24px;
+  color: rgb(255, 255, 255);
+}
+
+.join {
+  font-family: "Taviraj", serif;
+  font-weight: 500;
+  padding-bottom: 24px;
+  line-height: 100%;
+  letter-spacing: 0.02rem;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.Hypnosis {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0.02rem;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  padding-bottom: 14px;
+  margin-bottom: 24px;
+  font-style: italic;
+}
+.freedom {
+  font-family: "Taviraj", serif;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0.02rem;
+  font-size: 52px;
+  color: rgb(255, 255, 255);
+}
+.cancellation {
+  font-family: "Taviraj", serif;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0.02rem;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.monthly {
+  font-family: "Taviraj", serif;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0.02rem;
+  font-size: 21px;
+  color: rgb(255, 255, 255);
+  padding: 5px 0;
+}
+
+.free_trial {
+  font-family: "Taviraj", serif;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0.02rem;
+  font-size: 21px;
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  padding: 5px 0 25px 0;
+}
+.pay {
+  color: rgb(124, 124, 124);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0;
+  font-size: 15px;
+  /* margin-bottom: 100px; */
+}
+
+.foot {
+  color: rgb(124, 124, 124);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0;
+  font-size: 11px;
+  padding: 5px 0 40px 0;
+  width: 72%;
+}
+
+.fa-lock::before {
+  content: "\f023";
+  color: rgb(124, 124, 124);
+  margin-right: 10px;
+}
+.elImage2 {
+  width: 641px; /* Set initial width to fill its container */
+  height: 349px; /* Maintain aspect ratio */
+}
+
+/* Media query for tablets (landscape) */
+@media screen and (min-width: 768px) {
+  .elImage {
+    max-width: 50%; /* Limit width to 50% of the viewport width */
+  }
+}
+
+/* Media query for desktops */
+@media screen and (min-width: 992px) {
+  .elImage {
+    max-width: 33%; /* Limit width to 33% of the viewport width */
+  }
+}
+
+/* Media query for large desktops */
+@media screen and (min-width: 1200px) {
+  .elImage {
+    max-width: 25%; /* Limit width to 25% of the viewport width */
+  }
+}
