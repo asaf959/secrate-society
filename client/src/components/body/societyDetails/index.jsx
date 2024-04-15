@@ -2,6 +2,7 @@ import "./style.css"
 import Card from "../../card";
 
 function SocietyDetails() {
+  console.log("Zain");
   return (
     <div className="society-details-container">
       <div className="button-container">
