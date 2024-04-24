@@ -39,7 +39,7 @@ export default function CheckoutForm() {
 
   return (
     <form id="payment-form" onSubmit={handleSubmit}>
-      <h2 style={{ padding: "0 10px" }}>
+      <h2 style={{ padding: "0 10px", color: "#000" }}>
         91% of users stay with us after the initial 30-day subscription
       </h2>
       <PaymentElement id="payment-element" />
@@ -53,8 +53,8 @@ export default function CheckoutForm() {
           letterSpacing: "1px",
         }}
       >
-        <div>Total:</div>
-        <div>$6.99</div>
+        <div style={{ color: "#000" }}>Total:</div>
+        <div style={{ color: "#000" }}>$6.99</div>
       </div>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <button
@@ -62,9 +62,9 @@ export default function CheckoutForm() {
           id="submit"
           className="btn-grad"
         >
-          <span id="button-text" >
-        {isProcessing ? "Processing ... " : "Continue"}
-    </span>
+          <span id="button-text">
+            {isProcessing ? "Processing ... " : "Continue"}
+          </span>
         </button>
       </div>
 

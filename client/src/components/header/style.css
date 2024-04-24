@@ -19,15 +19,27 @@
   color: rgb(255, 255, 255);
 }
 
-
 @media only screen and (max-width: 480px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999; /* Ensure the header is above other content */
+    /* Add any other styles as needed */
+    padding: 0 0 10px 0;
+  }
   /* Mobile devices */
   .timer {
-    font-size: 14px; /* Adjust as needed */
+    font-size: 18px; /* Adjust as needed */
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
   .elImage {
-    width: 34%;
-    height: 34%;
+    width: 50%;
+    height: 50%;
   }
 }
 
@@ -39,7 +51,6 @@
   .elImage {
     width: 32%;
     height: 32%;
-
   }
 }
 
@@ -51,7 +62,6 @@
   .elImage {
     width: 24%;
     height: 24%;
-
   }
 }
 

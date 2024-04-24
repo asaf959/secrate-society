@@ -116,6 +116,13 @@
 }
 
 @media only screen and (max-width: 480px) {
+  .container {
+    background-color: rgb(44, 41, 41);
+    margin: 64px auto;
+    padding: 44px 0;
+  
+  }
+
   .pricing-section {
     max-width: 90%; /* Set maximum width to 100% for smaller screens */
   }

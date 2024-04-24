@@ -65,3 +65,16 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+.btn-grad {
+  background-color: #be8f54; /* Default background color */
+  color: #fff; /* Text color */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-grad:hover {
+  background-color: #018ff5; /* Background color on hover */
+}
