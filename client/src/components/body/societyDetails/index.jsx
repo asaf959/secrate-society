@@ -21,28 +21,47 @@ function SocietyDetails() {
           <h1>Join the Social Freedom Secret Society to...</h1>
           <ul className="details-list">
             <li>
-              <i className="fa-fw fa_icon fa fa-check"></i>Find out what the
-              female subconscious needs more than ANYTHING else...
+              <i
+                className="fa-fw fa_icon fa fa-check"
+                style={{ color: "rgb(165, 116, 55)" }}
+              ></i>
+              Find out what the female subconscious needs more than ANYTHING
+              else...
             </li>
             <li>
-              <i className="fa-fw fa_icon fa fa-check"></i>Make her chase you
-              without having to do ANYTHING...
+              <i
+                className="fa-fw fa_icon fa fa-check"
+                style={{ color: "rgb(165, 116, 55)" }}
+              ></i>
+              Make her chase you without having to do ANYTHING...
             </li>
             <li>
-              <i className="fa-fw fa_icon fa fa-check"></i>Earn her respect and
-              admiration with my 3 step formula...
+              <i
+                className="fa-fw fa_icon fa fa-check"
+                style={{ color: "rgb(165, 116, 55)" }}
+              ></i>
+              Earn her respect and admiration with my 3 step formula...
             </li>
             <li>
-              <i className="fa-fw fa_icon fa fa-check"></i>Join a tribe of
-              ambitious men around the world...
+              <i
+                className="fa-fw fa_icon fa fa-check"
+                style={{ color: "rgb(165, 116, 55)" }}
+              ></i>
+              Join a tribe of ambitious men around the world...
             </li>
             <li>
-              <i className="fa-fw fa_icon fa fa-check"></i>Learn hypnosis
-              techniques that you can apply on a daily basis...
+              <i
+                className="fa-fw fa_icon fa fa-check"
+                style={{ color: "rgb(165, 116, 55)" }}
+              ></i>
+              Learn hypnosis techniques that you can apply on a daily basis...
             </li>
             <li>
-              <i className="fa-fw fa_icon fa fa-check"></i>Make her crave your
-              attention...
+              <i
+                className="fa-fw fa_icon fa fa-check"
+                style={{ color: "rgb(165, 116, 55)" }}
+              ></i>
+              Make her crave your attention...
             </li>
           </ul>
         </Card>
