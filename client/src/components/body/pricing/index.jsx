@@ -27,7 +27,7 @@ function Pricing() {
           className="elImage2"
         />
 
-        {/* <span className="cancellation">
+        <span className="cancellation">
           Try it risk free for $7, cancel any time
         </span>
         <span className="monthly">
@@ -38,12 +38,13 @@ function Pricing() {
           T7-Day Risk Free Trial only available HERE...
           <br />
           You will NEVER get this offer again.
-        </span> */}
+        </span>
 
         <div
+          id="pricing-section"
+          className="pricing-section"
           style={{
             width: "500px",
-            
             padding:"24px",
             height: "auto",
             backgroundColor: "#fff",

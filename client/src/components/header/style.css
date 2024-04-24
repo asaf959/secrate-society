@@ -1,17 +1,12 @@
 .header {
   width: 100%;
   background: rgb(0, 0, 0);
-  padding: 0 60px 0 177px; 
-  box-sizing: border-box; 
+  padding: 0 3% 0 10%;
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-/* 
-.elImage {
-  width: 100%;
-  height: auto;
-} */
 
 .timer {
   display: flex;
@@ -22,4 +17,62 @@
   letter-spacing: 0.02rem;
   font-size: 27px;
   color: rgb(255, 255, 255);
+}
+
+
+@media only screen and (max-width: 480px) {
+  /* Mobile devices */
+  .timer {
+    font-size: 14px; /* Adjust as needed */
+  }
+  .elImage {
+    width: 34%;
+    height: 34%;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* Mobile devices */
+  .timer {
+    font-size: 18px; /* Adjust as needed */
+  }
+  .elImage {
+    width: 32%;
+    height: 32%;
+
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Tablets */
+  .timer {
+    font-size: 22px; /* Adjust as needed */
+  }
+  .elImage {
+    width: 24%;
+    height: 24%;
+
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  /* Large tablets and small desktops */
+  .timer {
+    font-size: 24px; /* Adjust as needed */
+  }
+  .elImage {
+    width: 20%;
+    height: 20%;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  /* Desktops */
+  .timer {
+    font-size: 26px; /* Adjust as needed */
+  }
+  .elImage {
+    width: 19%;
+    height: 19%;
+  }
 }

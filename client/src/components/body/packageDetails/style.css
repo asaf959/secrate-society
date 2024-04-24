@@ -2,6 +2,7 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   background: url("https://statics.myclickfunnels.com/image/1839926/file/b182d08982dedb05e6665cfcec18349d.jpg")
     rgb(0, 0, 0);
@@ -34,6 +35,7 @@
   font-size: 41px;
   color: rgb(255, 255, 255);
   margin: 45px 0 12px 0;
+  display: block;
 }
 .unordered_list {
   padding: 10px 0;
@@ -44,10 +46,12 @@
   line-height: 150%;
   letter-spacing: 0;
   margin-bottom: 25px;
+
   li {
     display: flex;
     align-items: center;
     margin-top: 10px;
+    justify-content: start;
     text-align: left;
   }
 }
@@ -60,6 +64,7 @@
 }
 .content2 {
   width: 582px;
+  /* border: 2px solid red; */
   h1 {
     font-family: "Taviraj", serif;
     font-weight: 500;
@@ -79,6 +84,10 @@
     text-align: center;
   }
 }
+.card-img {
+  width: 93%;
+  height: auto;
+}
 .formula {
   font-family: "Open Sans", sans-serif;
   font-weight: 500;
@@ -87,4 +96,173 @@
   font-size: 16px;
   color: rgb(255, 255, 255);
   margin: 4px 16px;
+}
+@media only screen and (max-width: 480px) {
+  /* Mobile devices */
+  .package_img {
+    width: 62%;
+    margin: 12px auto;
+  }
+  .obsession {
+    margin: 0 auto;
+    font-size: 22px;
+
+    width: 66%;
+  }
+  .unordered_list {
+    font-size: 12px;
+    padding: 5px 0;
+    margin: 10px 60px;
+  }
+  .unordered_list li {
+    margin-top: 5px;
+    padding-right: 15px;
+  }
+  .content2 {
+    width: 90%;
+    margin: 0 auto;
+
+    h1 {
+      font-size: 24px;
+    }
+    h2 {
+      font-size: 18px;
+    }
+  }
+  .card-img {
+    width: 68%;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* Mobile devices */
+  .package_img {
+    width: 80%;
+  }
+  .obsession {
+    margin: 0 auto;
+    font-size: 28px;
+
+    width: 80%;
+  }
+  .unordered_list {
+    font-size: 13px;
+    padding: 5px 0;
+    margin: 30px 60px;
+  }
+  .unordered_list li {
+    margin-top: 5px;
+  }
+  .content2 {
+    width: 75%;
+    margin: 0 auto;
+
+    h1 {
+      font-size: 26px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+  }
+  .card-img {
+    width: 73%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Tablets */
+  .package_img {
+    width: 85%;
+  }
+  .obsession {
+    margin: 10px 0;
+    font-size: 30px;
+  }
+  .unordered_list {
+    font-size: 15px;
+    padding: 8px 0;
+    margin-bottom: 20px;
+  }
+  .unordered_list li {
+    margin-top: 8px;
+  }
+  .content2 {
+    /* width: 80%; */
+    margin: 0 auto;
+
+    h1 {
+      font-size: 30px;
+    }
+    h2 {
+      font-size: 22px;
+    }
+  }
+  .card-img {
+    width: 78%;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  /* Large tablets and small desktops */
+  .package_img {
+    width: 90%;
+  }
+  .obsession {
+    margin: 10px 0;
+    font-size: 34px;
+  }
+  .unordered_list {
+    font-size: 16px;
+    padding: 10px 0;
+    margin-bottom: 25px;
+  }
+  .unordered_list li {
+    margin-top: 10px;
+  }
+  .content2 {
+    /* width: 85%; */
+    margin: 0 auto;
+
+    h1 {
+      font-size: 33px;
+    }
+    h2 {
+      font-size: 24px;
+    }
+  }
+  .card-img {
+    width: 83%;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  /* Desktops */
+  .package_img {
+    width: 95%;
+  }
+  .obsession {
+    margin: 10px 0;
+    font-size: 37px;
+  }
+  .unordered_list {
+    font-size: 18px;
+    padding: 10px 0;
+    margin-bottom: 25px;
+  }
+  .unordered_list li {
+    margin-top: 10px;
+  }
+  .content2 {
+    /* width: 90%; */
+    margin: 0 auto;
+    h1 {
+      font-size: 35px;
+    }
+    h2 {
+      font-size: 25px;
+    }
+  }
+  .card-img {
+    width: 87%;
+  }
 }

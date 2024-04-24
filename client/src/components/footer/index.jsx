@@ -3,7 +3,7 @@ import "./footer.css";
 function Footer() {
   return (
     <div className="footer-container">
-      <div className="inner-container">
+      <div className="inner-container_footer">
         <text className="footer-text">
           ​© 2024 Fluid Confidence System - Copyright© 2024. All Rights
           Reserved.

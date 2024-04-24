@@ -98,6 +98,7 @@ function PackageDetail() {
               alt="img3"
               width={520}
               height={292}
+              className="card-img"
             />
           </Card>
           <Card>
@@ -112,6 +113,8 @@ function PackageDetail() {
               alt="img3"
               width={520}
               height="auto"
+              className="card-img"
+
             />
           </Card>
           <Card>
@@ -127,6 +130,8 @@ function PackageDetail() {
               alt="img3"
               width={520}
               height="auto"
+              className="card-img"
+
             />
           </Card>
         </div>

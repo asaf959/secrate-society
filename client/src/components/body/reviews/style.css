@@ -2,7 +2,7 @@
   h1 {
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 700;
-  margin-top: 50px;
+    margin-top: 50px;
 
     line-height: 105%;
     letter-spacing: 0.02rem;
@@ -10,10 +10,9 @@
     color: rgb(255, 255, 255);
     margin-bottom: 36px;
     display: inline-block;
-    
   }
-  background: url('https://statics.myclickfunnels.com/image/1749361/file/2c6917f8a2744bf28c3dc76d19764aab.jpg') rgb(0, 0, 0);
-
+  background: url("https://statics.myclickfunnels.com/image/1749361/file/2c6917f8a2744bf28c3dc76d19764aab.jpg")
+    rgb(0, 0, 0);
 }
 .images {
   display: flex;
@@ -23,7 +22,7 @@
 .review_img {
   border-radius: 21px;
   box-shadow: 0px 0px 17px 5px rgba(0, 0, 0, 0.25);
-  /* max-width: 100%; */
+  max-width: 100%;
   vertical-align: bottom;
   /* width: 100%; */
   height: auto;
@@ -54,7 +53,7 @@
   padding-top: 20px;
   padding-bottom: 20px;
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.23);
-  background: linear-gradient(90deg, rgb(117, 43, 33) 5.00%, rgb(159, 64, 64) 99.00%);
+  background: linear-gradient(90deg, rgb(117, 43, 33) 5%, rgb(159, 64, 64) 99%);
   border-color: #123acb;
   border-width: 1px;
   color: rgb(255, 255, 255);
@@ -65,5 +64,100 @@
   text-transform: capitalize;
   font-weight: 700;
   margin: 15px 0 20px 0;
+}
 
+@media only screen and (max-width: 480px) {
+  /* Mobile devices */
+  .review_container {
+    h1 {
+      font-size: 22px;
+    }
+  }
+  .review_img {
+    margin-bottom: 30px; /* Adjust margin for smaller screens */
+    width: 80%;
+  }
+  .images {
+    flex-direction: column;
+  }
+  .column1 {
+    width: 100%;
+    margin: 0 !important;
+  }
+  .column2 {
+    width: 100%;
+    margin: 0 !important;
+  }
+  .column3 {
+    width: 100%;
+    margin: 0 !important;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* Mobile devices */
+  .review_container {
+    h1 {
+      font-size: 27px;
+    }
+  }
+  .review_img {
+    margin-bottom: 40px;
+    width: 100%; /* Adjust margin for smaller screens */
+  }
+  .images {
+    flex-direction: column;
+  }
+  .column1 {
+    width: 100%;
+    margin: 0 !important;
+    border: 2px solid gray;
+  }
+  .column2 {
+    width: 100%;
+    margin: 0 !important;
+  }
+  .column3 {
+    width: 100%;
+    margin: 0 !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Tablets */
+  .review_container {
+    h1 {
+      font-size: 32px;
+    }
+  }
+  .review_img {
+    max-width: 90%; /* Adjust max-width for tablets */
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  /* Large tablets and small desktops */
+  .review_container {
+    h1 {
+      font-size: 36px;
+    }
+  }
+  .review_img {
+    max-width: 90%; /* Adjust max-width for large tablets and small desktops */
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  /* Desktops */
+  .review_container {
+    h1 {
+      font-size: 40px;
+    }
+  }
+  .review_img {
+    max-width: 90%; /* Adjust max-width for desktops */
+    margin-bottom: 50px;
+  }
 }

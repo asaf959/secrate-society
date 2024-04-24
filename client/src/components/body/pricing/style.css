@@ -5,8 +5,8 @@
   justify-content: center; /* Center align content horizontally */
   padding-top: 25px;
   padding-bottom: 38px;
-  background: url('https://statics.myclickfunnels.com/image/1839924/file/e6aab42024a3a149f7bc630b8ce2382b.jpg') rgb(0, 0, 0);
-
+  background: url("https://statics.myclickfunnels.com/image/1839924/file/e6aab42024a3a149f7bc630b8ce2382b.jpg")
+    rgb(0, 0, 0);
 }
 
 .content {
@@ -111,27 +111,191 @@
   margin-right: 10px;
 }
 .elImage2 {
-  width: 641px; /* Set initial width to fill its container */
-  height: 349px; /* Maintain aspect ratio */
+  width: 75%; /* Set initial width to fill its container */
+  height: auto; /* Maintain aspect ratio */
 }
 
-/* Media query for tablets (landscape) */
-@media screen and (min-width: 768px) {
-  .elImage {
-    max-width: 50%; /* Limit width to 50% of the viewport width */
+@media only screen and (max-width: 480px) {
+  .pricing-section {
+    max-width: 90%; /* Set maximum width to 100% for smaller screens */
+  }
+  /* Mobile devices */
+  .discover {
+    font-size: 28px;
+  }
+  .join {
+    font-size: 10px;
+  }
+  .Hypnosis {
+    font-size: 14px;
+  }
+  .freedom {
+    font-size: 32px;
+  }
+  .content {
+    /* Adjust width as needed for responsiveness */
+    width: 92%;
+  }
+  .cancellation {
+    font-size: 20px;
+  }
+  .monthly {
+    font-size: 15px;
+  }
+  .free_trial {
+    font-size: 15px;
+  }
+  .pay {
+    font-size: 10px;
+  }
+  .foot {
+    font-size: 9px;
+    width: 90%;
   }
 }
 
-/* Media query for desktops */
-@media screen and (min-width: 992px) {
-  .elImage {
-    max-width: 33%; /* Limit width to 33% of the viewport width */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .pricing-section {
+    max-width: 90%; /* Set maximum width to 100% for smaller screens */
+  }
+  /* Mobile devices */
+  .discover {
+    font-size: 32px;
+  }
+  .join {
+    font-size: 12px;
+  }
+  .Hypnosis {
+    font-size: 16px;
+  }
+  .freedom {
+    font-size: 36px;
+  }
+  .content {
+    width: 90%;
+  }
+  .cancellation {
+    font-size: 22px;
+  }
+  .monthly {
+    font-size: 16px;
+  }
+  .free_trial {
+    font-size: 16px;
+  }
+  .pay {
+    font-size: 11px;
+  }
+  .foot {
+    font-size: 9px;
+    width: 88%;
   }
 }
 
-/* Media query for large desktops */
-@media screen and (min-width: 1200px) {
-  .elImage {
-    max-width: 25%; /* Limit width to 25% of the viewport width */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .pricing-section {
+    max-width: 90%; /* Set maximum width to 100% for smaller screens */
+  }
+  /* Tablets */
+  .discover {
+    font-size: 36px;
+  }
+  .join {
+    font-size: 14px;
+  }
+  .Hypnosis {
+    font-size: 18px;
+  }
+  .freedom {
+    font-size: 40px;
+  }
+  .content {
+    width: 80%;
+  }
+  .cancellation {
+    font-size: 24px;
+  }
+  .monthly {
+    font-size: 17px;
+  }
+  .free_trial {
+    font-size: 17px;
+  }
+  .pay {
+    font-size: 12px;
+  }
+  .foot {
+    font-size: 9px;
+    width: 86%;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  /* Large tablets and small desktops */
+  .discover {
+    font-size: 40px;
+  }
+  .join {
+    font-size: 16px;
+  }
+  .Hypnosis {
+    font-size: 20px;
+  }
+  .freedom {
+    font-size: 44px;
+  }
+  .content {
+    width: 70%;
+  }
+  .cancellation {
+    font-size: 26px;
+  }
+  .monthly {
+    font-size: 19px;
+  }
+  .free_trial {
+    font-size: 19px;
+  }
+  .pay {
+    font-size: 13px;
+  }
+  .foot {
+    font-size: 9px;
+    width: 82%;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  /* Desktops */
+  .discover {
+    font-size: 42px;
+  }
+  .join {
+    font-size: 18px;
+  }
+  .Hypnosis {
+    font-size: 22px;
+  }
+  .freedom {
+    font-size: 48px;
+  }
+  .content {
+    width: 60%;
+  }
+  .cancellation {
+    font-size: 28px;
+  }
+  .monthly {
+    font-size: 20px;
+  }
+  .free_trial {
+    font-size: 20px;
+  }
+  .pay {
+    font-size: 14px;
+  }
+  .foot {
+    font-size: 10px;
+    width: 78%;
   }
 }
